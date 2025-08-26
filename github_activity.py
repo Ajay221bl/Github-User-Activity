@@ -32,7 +32,7 @@ class GithubActivity():
         return None
     
 # producing well readable format from the above retrieved events
-    def format_recent_activity(self,events):
+    def format_recent_activity(self, events):
         if not events:
             return ["No recent activity found or failed to fetch data."]
         output = []
